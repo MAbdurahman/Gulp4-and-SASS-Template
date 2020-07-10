@@ -195,4 +195,4 @@ fabric.properties
 *.sass.map
 *.scss.map
 
-
+package-lock.json
