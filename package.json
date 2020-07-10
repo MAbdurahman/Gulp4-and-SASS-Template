@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/MAbdurahman/Gulp4-and-SASS-Template/issues"
   },
-  "homepage": "https://github.com/MAbdurahman/Gulp4-and-SASS-Template#readme"
+  "homepage": "https://github.com/MAbdurahman/Gulp4-and-SASS-Template#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
