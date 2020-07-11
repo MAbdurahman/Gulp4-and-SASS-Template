@@ -1,0 +1,25 @@
+.img-responsive {
+  vertical-align: middle;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.img-responsive,
+.thumbnail>img,
+.thumbnail a>img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,73 @@
+/* =========================================
+                Buttons
+============================================ */
+
+.btn-general {
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 .375em;
+  padding: 12px 46px 12px 46px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -ms-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+}
+
+.btn-general:hover,
+.btn-general:focus {
+  cursor: pointer;
+}
+
+.btn-home {
+  color: #fff;
+  border: 1px solid #fff;
+  background: linear-gradient(115deg, transparent 0%, transparent 50%, var(--white) 50%);
+  background-size: 220%;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  cursor: pointer;
+  color: var(--med-blue);
+  background-position: 100%;
+  transform: translateX(1rem);
+  -webkit-transform: translateX(1rem);
+  -moz-transform: translateX(1rem);
+  -ms-transform: translateX(1rem);
+  -o-transform: translateX(1rem);
+}
+
+.btn-blue {
+  background: linear-gradient(115deg, transparent 0%, transparent 50%, var(--med-gray) 50%);
+  background-size: 220%;
+  transition: all .4s;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+  cursor: pointer;
+  /* color: var(--med-gray); */
+  color: var(--light-blue);
+  /* background-color: var(--light-gray); */
+  background-position: 100%;
+  /* transform: translateX(1rem);
+    -webkit-transform: translateX(1rem);
+    -moz-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    -o-transform: translateX(1rem); */
+}
