@@ -1,6 +1,7 @@
 /* =========================================
                 Buttons
 ============================================ */
+@import "../abstracts/variables";
 
 .btn-general {
   font-family: 'Montserrat', sans-serif;
@@ -70,4 +71,30 @@
     -moz-transform: translateX(1rem);
     -ms-transform: translateX(1rem);
     -o-transform: translateX(1rem); */
+}
+.btn-text {
+
+  &:focus,
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 3px;
+    color: $color-light-blue;
+    font-size: $default-font-size;
+    text-decoration: none;
+    border-bottom: 1px solid $color-light-blue;
+    cursor: pointer;
+    transition: all .2s;
+  }
+  &:hover {
+    background-color: $color-light-blue;
+    color: $color-med-blue;
+    box-shadow: 0 1em 2em rgba(0, 0, 0, .5);
+    transform: translateY(-2px);
+
+  }
+  &:active {
+    box-shadow: 0 1em 2em rgba(0, 0, 0, .5);
+    transform: translateY(0);
+  }
 }

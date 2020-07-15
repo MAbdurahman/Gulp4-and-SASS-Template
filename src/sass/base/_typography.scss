@@ -1,0 +1,15 @@
+.heading-primary {
+
+}
+.heading-secondary {
+
+}
+.heading-tertiary {
+
+}
+.paragraph {
+  font-size: 1.6rem;
+  &:not(:last-child) {
+    margin-bottom: 3em;
+  }
+}
